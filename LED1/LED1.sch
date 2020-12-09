@@ -1,0 +1,269 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 00User:AL8805 U1
+U 1 1 5FA11BD8
+P 6200 4400
+F 0 "U1" H 6200 4815 50  0000 C CNN
+F 1 "AL8805" H 6200 4724 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 6150 4900 50  0001 C CNN
+F 3 "" H 6150 4900 50  0001 C CNN
+	1    6200 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D1
+U 1 1 5FA12018
+P 6200 3750
+F 0 "D1" H 6200 3966 50  0000 C CNN
+F 1 "D_Schottky" H 6200 3875 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6200 3750 50  0001 C CNN
+F 3 "~" H 6200 3750 50  0001 C CNN
+	1    6200 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5FA12925
+P 5500 4400
+F 0 "R1" H 5570 4446 50  0000 L CNN
+F 1 "R" H 5570 4355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5430 4400 50  0001 C CNN
+F 3 "~" H 5500 4400 50  0001 C CNN
+	1    5500 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5FA139BD
+P 4900 4000
+F 0 "C1" H 5015 4046 50  0000 L CNN
+F 1 "C" H 5015 3955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4938 3850 50  0001 C CNN
+F 3 "~" H 4900 4000 50  0001 C CNN
+	1    4900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5FA13FCF
+P 7450 4400
+F 0 "C2" H 7565 4446 50  0000 L CNN
+F 1 "C" H 7565 4355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7488 4250 50  0001 C CNN
+F 3 "~" H 7450 4400 50  0001 C CNN
+	1    7450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5FA14ADA
+P 6650 4700
+F 0 "#PWR0101" H 6650 4450 50  0001 C CNN
+F 1 "GND" H 6655 4527 50  0000 C CNN
+F 2 "" H 6650 4700 50  0001 C CNN
+F 3 "" H 6650 4700 50  0001 C CNN
+	1    6650 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5FA151A4
+P 4900 4250
+F 0 "#PWR0102" H 4900 4000 50  0001 C CNN
+F 1 "GND" H 4905 4077 50  0000 C CNN
+F 2 "" H 4900 4250 50  0001 C CNN
+F 3 "" H 4900 4250 50  0001 C CNN
+	1    4900 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4250 5850 4250
+Wire Wire Line
+	5850 4550 5500 4550
+Wire Wire Line
+	4900 4150 4900 4250
+Wire Wire Line
+	6050 3750 5500 3750
+Wire Wire Line
+	5500 3750 5500 4250
+Connection ~ 5500 4250
+Wire Wire Line
+	5500 3750 4900 3750
+Connection ~ 5500 3750
+Wire Wire Line
+	4900 3850 4900 3750
+Connection ~ 4900 3750
+Wire Wire Line
+	6350 3750 6650 3750
+Wire Wire Line
+	6650 3750 6650 4250
+Wire Wire Line
+	6650 4250 6550 4250
+$Comp
+L Device:LED_PAD D2
+U 1 1 5FA18308
+P 7950 4150
+F 0 "D2" V 7897 4228 50  0000 L CNN
+F 1 "LED" V 7988 4228 50  0000 L CNN
+F 2 "0MiscParts:PowerLed" H 7950 4150 50  0001 C CNN
+F 3 "~" H 7950 4150 50  0001 C CNN
+	1    7950 4150
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 5FA1A59C
+P 7050 3750
+F 0 "L1" V 6869 3750 50  0000 C CNN
+F 1 "L" V 6960 3750 50  0000 C CNN
+F 2 "0MiscParts:LPS-6235" H 7050 3750 50  0001 C CNN
+F 3 "~" H 7050 3750 50  0001 C CNN
+	1    7050 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 3750 6900 3750
+Connection ~ 6650 3750
+Wire Wire Line
+	7200 3750 7450 3750
+Wire Wire Line
+	7450 3750 7450 4250
+Wire Wire Line
+	5500 4550 5500 5050
+Wire Wire Line
+	5500 5050 7450 5050
+Wire Wire Line
+	7450 5050 7450 4550
+Connection ~ 5500 4550
+Wire Wire Line
+	7450 3750 7950 3750
+Wire Wire Line
+	7950 3750 7950 4000
+Connection ~ 7450 3750
+$Comp
+L Device:LED_PAD D3
+U 1 1 5FA1E1E2
+P 7950 4700
+F 0 "D3" V 7897 4778 50  0000 L CNN
+F 1 "LED" V 7988 4778 50  0000 L CNN
+F 2 "0MiscParts:PowerLed" H 7950 4700 50  0001 C CNN
+F 3 "~" H 7950 4700 50  0001 C CNN
+	1    7950 4700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	7450 5050 7950 5050
+Wire Wire Line
+	7950 5050 7950 4850
+Connection ~ 7450 5050
+Wire Wire Line
+	7950 4550 7950 4300
+$Comp
+L Connector:Conn_01x02_Female J1
+U 1 1 5FA1ECBD
+P 3900 3750
+F 0 "J1" H 3792 3935 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 3792 3844 50  0000 C CNN
+F 2 "Connector_Phoenix_MC:PhoenixContact_MC_1,5_2-G-3.81_1x02_P3.81mm_Horizontal" H 3900 3750 50  0001 C CNN
+F 3 "~" H 3900 3750 50  0001 C CNN
+	1    3900 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5FA1FB72
+P 4300 3900
+F 0 "#PWR0103" H 4300 3650 50  0001 C CNN
+F 1 "GND" H 4305 3727 50  0000 C CNN
+F 2 "" H 4300 3900 50  0001 C CNN
+F 3 "" H 4300 3900 50  0001 C CNN
+	1    4300 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3850 4300 3850
+Wire Wire Line
+	4300 3850 4300 3900
+Wire Wire Line
+	6550 4400 6650 4400
+Wire Wire Line
+	6650 4400 6650 4700
+Text Label 4550 3750 0    50   ~ 0
+Vin
+Text Label 6750 3750 0    50   ~ 0
+Sw
+Text Label 6750 5050 0    50   ~ 0
+Set
+Text Label 7950 4400 0    50   ~ 0
+Led1
+Text Label 7650 3750 0    50   ~ 0
+Ledc
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FA33100
+P 4900 2550
+F 0 "H1" H 5000 2596 50  0000 L CNN
+F 1 "MountingHole" H 5000 2505 50  0000 L CNN
+F 2 "0MiscParts:MountingHole _1-8_1-4" H 4900 2550 50  0001 C CNN
+F 3 "~" H 4900 2550 50  0001 C CNN
+	1    4900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FA333A2
+P 4900 2750
+F 0 "H2" H 5000 2796 50  0000 L CNN
+F 1 "MountingHole" H 5000 2705 50  0000 L CNN
+F 2 "0MiscParts:MountingHole _1-8_1-4" H 4900 2750 50  0001 C CNN
+F 3 "~" H 4900 2750 50  0001 C CNN
+	1    4900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Heatsink_Pad HS1
+U 1 1 5FA4604C
+P 8500 4150
+F 0 "HS1" V 8453 4280 50  0000 L CNN
+F 1 "Heatsink_Pad" V 8544 4280 50  0000 L CNN
+F 2 "0MiscParts:Heatsink_Pad" H 8512 4100 50  0001 C CNN
+F 3 "~" H 8512 4100 50  0001 C CNN
+	1    8500 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:Heatsink_Pad HS2
+U 1 1 5FA470FD
+P 8500 4700
+F 0 "HS2" V 8453 4830 50  0000 L CNN
+F 1 "Heatsink_Pad" V 8544 4830 50  0000 L CNN
+F 2 "0MiscParts:Heatsink_Pad" H 8512 4650 50  0001 C CNN
+F 3 "~" H 8512 4650 50  0001 C CNN
+	1    8500 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8150 4150 8400 4150
+Wire Wire Line
+	8150 4700 8400 4700
+Text Label 8250 4150 0    50   ~ 0
+D2
+Text Label 8250 4700 0    50   ~ 0
+D3
+Wire Wire Line
+	4100 3750 4900 3750
+$EndSCHEMATC

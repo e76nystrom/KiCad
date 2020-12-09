@@ -1,0 +1,334 @@
+EESchema Schematic File Version 4
+LIBS:StepTest-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x06 J1
+U 1 1 5E493488
+P 4700 4050
+F 0 "J1" H 4618 3525 50  0000 C CNN
+F 1 "Conn_01x06" H 4618 3616 50  0000 C CNN
+F 2 "0MiscParts:6_Pin_3.81mm" H 4700 4050 50  0001 C CNN
+F 3 "~" H 4700 4050 50  0001 C CNN
+	1    4700 4050
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J2
+U 1 1 5E494048
+P 6900 3950
+F 0 "J2" H 6980 3942 50  0000 L CNN
+F 1 "Conn_01x06" H 6980 3851 50  0000 L CNN
+F 2 "0MiscParts:6_Pin_3.81mm" H 6900 3950 50  0001 C CNN
+F 3 "~" H 6900 3950 50  0001 C CNN
+	1    6900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:OP275 U1
+U 1 1 5E495CF8
+P 4800 5100
+F 0 "U1" H 4800 5467 50  0000 C CNN
+F 1 "OP275" H 4800 5376 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4800 5100 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP275.pdf" H 4800 5100 50  0001 C CNN
+	1    4800 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:OP275 U1
+U 2 1 5E497100
+P 4800 5850
+F 0 "U1" H 4800 6217 50  0000 C CNN
+F 1 "OP275" H 4800 6126 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4800 5850 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP275.pdf" H 4800 5850 50  0001 C CNN
+	2    4800 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:OP275 U1
+U 3 1 5E499FC3
+P 5450 2950
+F 0 "U1" H 5408 2996 50  0000 L CNN
+F 1 "OP275" H 5408 2905 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5450 2950 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP275.pdf" H 5450 2950 50  0001 C CNN
+	3    5450 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3950 3850 3950
+Wire Wire Line
+	4500 4250 4400 4250
+Wire Wire Line
+	4500 4150 4400 4150
+Wire Wire Line
+	4500 4050 3850 4050
+Text Label 3950 4050 0    50   ~ 0
+EA-
+$Comp
+L power:GND #PWR0101
+U 1 1 5E4A3CBE
+P 4400 4350
+F 0 "#PWR0101" H 4400 4100 50  0001 C CNN
+F 1 "GND" H 4405 4177 50  0000 C CNN
+F 2 "" H 4400 4350 50  0001 C CNN
+F 3 "" H 4400 4350 50  0001 C CNN
+	1    4400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5E4A4624
+P 4400 3650
+F 0 "#PWR0102" H 4400 3500 50  0001 C CNN
+F 1 "+5V" H 4415 3823 50  0000 C CNN
+F 2 "" H 4400 3650 50  0001 C CNN
+F 3 "" H 4400 3650 50  0001 C CNN
+	1    4400 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4350 4400 4250
+Wire Wire Line
+	4400 4150 4400 3650
+Wire Wire Line
+	6700 3950 6050 3950
+Wire Wire Line
+	6700 3850 6050 3850
+Wire Wire Line
+	6700 3750 6050 3750
+Wire Wire Line
+	6700 4250 6600 4250
+Wire Wire Line
+	6700 4150 6600 4150
+Wire Wire Line
+	6700 4050 6050 4050
+Text Label 6150 3750 0    50   ~ 0
+EB-
+Text Label 6150 3850 0    50   ~ 0
+EB+
+Text Label 6150 3950 0    50   ~ 0
+EA+
+Text Label 6150 4050 0    50   ~ 0
+EA-
+$Comp
+L power:GND #PWR0103
+U 1 1 5E4A61BA
+P 6600 4350
+F 0 "#PWR0103" H 6600 4100 50  0001 C CNN
+F 1 "GND" H 6605 4177 50  0000 C CNN
+F 2 "" H 6600 4350 50  0001 C CNN
+F 3 "" H 6600 4350 50  0001 C CNN
+	1    6600 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 5E4A61C0
+P 6600 3650
+F 0 "#PWR0104" H 6600 3500 50  0001 C CNN
+F 1 "+5V" H 6615 3823 50  0000 C CNN
+F 2 "" H 6600 3650 50  0001 C CNN
+F 3 "" H 6600 3650 50  0001 C CNN
+	1    6600 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4350 6600 4250
+Wire Wire Line
+	6600 4150 6600 3650
+Text Label 3950 3950 0    50   ~ 0
+EA+
+Text Label 3950 3850 0    50   ~ 0
+EB+
+Text Label 3950 3750 0    50   ~ 0
+EB-
+Wire Wire Line
+	4500 3750 3850 3750
+Wire Wire Line
+	4500 3850 3850 3850
+Text Label 3950 5000 0    50   ~ 0
+EB+
+Text Label 3950 5200 0    50   ~ 0
+EB-
+Wire Wire Line
+	4500 5200 3850 5200
+Wire Wire Line
+	4500 5000 3850 5000
+Wire Wire Line
+	4500 5750 3850 5750
+Wire Wire Line
+	4500 5950 3850 5950
+Text Label 3950 5950 0    50   ~ 0
+EA-
+Text Label 3950 5750 0    50   ~ 0
+EA+
+$Comp
+L power:+5V #PWR0105
+U 1 1 5E4AC04A
+P 5350 2650
+F 0 "#PWR0105" H 5350 2500 50  0001 C CNN
+F 1 "+5V" H 5365 2823 50  0000 C CNN
+F 2 "" H 5350 2650 50  0001 C CNN
+F 3 "" H 5350 2650 50  0001 C CNN
+	1    5350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5E4AC4BF
+P 5350 3250
+F 0 "#PWR0106" H 5350 3000 50  0001 C CNN
+F 1 "GND" H 5355 3077 50  0000 C CNN
+F 2 "" H 5350 3250 50  0001 C CNN
+F 3 "" H 5350 3250 50  0001 C CNN
+	1    5350 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J3
+U 1 1 5E4ACA18
+P 4750 2200
+F 0 "J3" H 4722 2174 50  0000 R CNN
+F 1 "Conn_01x06_Male" H 4722 2083 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4750 2200 50  0001 C CNN
+F 3 "~" H 4750 2200 50  0001 C CNN
+	1    4750 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4550 2100 3900 2100
+Wire Wire Line
+	4550 2400 4450 2400
+Wire Wire Line
+	4550 2300 4450 2300
+Wire Wire Line
+	4550 2200 3900 2200
+Text Label 4000 2200 0    50   ~ 0
+EA-
+$Comp
+L power:GND #PWR0107
+U 1 1 5E4AF8F3
+P 4450 2500
+F 0 "#PWR0107" H 4450 2250 50  0001 C CNN
+F 1 "GND" H 4455 2327 50  0000 C CNN
+F 2 "" H 4450 2500 50  0001 C CNN
+F 3 "" H 4450 2500 50  0001 C CNN
+	1    4450 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0108
+U 1 1 5E4AF8F9
+P 4450 1800
+F 0 "#PWR0108" H 4450 1650 50  0001 C CNN
+F 1 "+5V" H 4465 1973 50  0000 C CNN
+F 2 "" H 4450 1800 50  0001 C CNN
+F 3 "" H 4450 1800 50  0001 C CNN
+	1    4450 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 2500 4450 2400
+Wire Wire Line
+	4450 2300 4450 1800
+Text Label 4000 2100 0    50   ~ 0
+EA+
+Text Label 4000 2000 0    50   ~ 0
+EB+
+Text Label 4000 1900 0    50   ~ 0
+EB-
+Wire Wire Line
+	4550 1900 3900 1900
+Wire Wire Line
+	4550 2000 3900 2000
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 5E4B189C
+P 6900 5500
+F 0 "J4" H 6872 5524 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 6872 5433 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6900 5500 50  0001 C CNN
+F 3 "~" H 6900 5500 50  0001 C CNN
+	1    6900 5500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 5100 5550 5100
+Wire Wire Line
+	5100 5850 5550 5850
+Wire Wire Line
+	6300 5500 6700 5500
+Wire Wire Line
+	6300 5400 6700 5400
+Text Label 5300 5100 0    50   ~ 0
+B
+Text Label 5300 5850 0    50   ~ 0
+A
+Wire Wire Line
+	6700 5600 6600 5600
+$Comp
+L power:GND #PWR0109
+U 1 1 5E4B4EEB
+P 6600 5700
+F 0 "#PWR0109" H 6600 5450 50  0001 C CNN
+F 1 "GND" H 6605 5527 50  0000 C CNN
+F 2 "" H 6600 5700 50  0001 C CNN
+F 3 "" H 6600 5700 50  0001 C CNN
+	1    6600 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 5700 6600 5600
+Text Label 6400 5500 0    50   ~ 0
+B
+Text Label 6400 5400 0    50   ~ 0
+A
+$Comp
+L Device:C C1
+U 1 1 5E4B6BA4
+P 5800 2950
+F 0 "C1" H 5915 2996 50  0000 L CNN
+F 1 "C" H 5915 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5838 2800 50  0001 C CNN
+F 3 "~" H 5800 2950 50  0001 C CNN
+	1    5800 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5E4B7599
+P 5800 3100
+F 0 "#PWR0110" H 5800 2850 50  0001 C CNN
+F 1 "GND" H 5805 2927 50  0000 C CNN
+F 2 "" H 5800 3100 50  0001 C CNN
+F 3 "" H 5800 3100 50  0001 C CNN
+	1    5800 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0111
+U 1 1 5E4B79AE
+P 5800 2800
+F 0 "#PWR0111" H 5800 2650 50  0001 C CNN
+F 1 "+5V" H 5815 2973 50  0000 C CNN
+F 2 "" H 5800 2800 50  0001 C CNN
+F 3 "" H 5800 2800 50  0001 C CNN
+	1    5800 2800
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,260 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 00User:PJ-102 J1
+U 1 1 5E4F1101
+P 3500 3350
+F 0 "J1" H 3558 3625 50  0000 C CNN
+F 1 "PJ-102" H 3558 3534 50  0000 C CNN
+F 2 "0MiscParts:PJ-102" H 3500 3350 50  0001 C CNN
+F 3 "" H 3500 3350 50  0001 C CNN
+	1    3500 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5E4F1BC6
+P 3500 4200
+F 0 "J2" H 3418 4417 50  0000 C CNN
+F 1 "Conn_01x02" H 3418 4326 50  0000 C CNN
+F 2 "0MiscParts:2 Pin 3.81mm" H 3500 4200 50  0001 C CNN
+F 3 "~" H 3500 4200 50  0001 C CNN
+	1    3500 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_A J4
+U 1 1 5E4F317E
+P 5650 3250
+F 0 "J4" H 5420 3239 50  0000 R CNN
+F 1 "USB_A" H 5420 3148 50  0000 R CNN
+F 2 "0MiscParts:USB-A" H 5800 3200 50  0001 C CNN
+F 3 " ~" H 5800 3200 50  0001 C CNN
+	1    5650 3250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B J5
+U 1 1 5E4F4D86
+P 5650 4650
+F 0 "J5" H 5420 4639 50  0000 R CNN
+F 1 "USB_B" H 5420 4548 50  0000 R CNN
+F 2 "0MiscParts:USB-B" H 5800 4600 50  0001 C CNN
+F 3 " ~" H 5800 4600 50  0001 C CNN
+	1    5650 4650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3300 4250 3300
+Wire Wire Line
+	3700 4200 4250 4200
+Wire Wire Line
+	4800 3050 5350 3050
+Wire Wire Line
+	4800 4450 5350 4450
+$Comp
+L power:GND #PWR0101
+U 1 1 5E4F5A2C
+P 3800 3550
+F 0 "#PWR0101" H 3800 3300 50  0001 C CNN
+F 1 "GND" H 3805 3377 50  0000 C CNN
+F 2 "" H 3800 3550 50  0001 C CNN
+F 3 "" H 3800 3550 50  0001 C CNN
+	1    3800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E4F62C5
+P 3800 4350
+F 0 "#PWR0102" H 3800 4100 50  0001 C CNN
+F 1 "GND" H 3805 4177 50  0000 C CNN
+F 2 "" H 3800 4350 50  0001 C CNN
+F 3 "" H 3800 4350 50  0001 C CNN
+	1    3800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5E4F6551
+P 5650 3800
+F 0 "#PWR0103" H 5650 3550 50  0001 C CNN
+F 1 "GND" H 5655 3627 50  0000 C CNN
+F 2 "" H 5650 3800 50  0001 C CNN
+F 3 "" H 5650 3800 50  0001 C CNN
+	1    5650 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5E4F6931
+P 5650 5200
+F 0 "#PWR0104" H 5650 4950 50  0001 C CNN
+F 1 "GND" H 5655 5027 50  0000 C CNN
+F 2 "" H 5650 5200 50  0001 C CNN
+F 3 "" H 5650 5200 50  0001 C CNN
+	1    5650 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 3650 5650 3750
+Wire Wire Line
+	5750 3650 5750 3750
+Wire Wire Line
+	5750 3750 5650 3750
+Connection ~ 5650 3750
+Wire Wire Line
+	5650 3750 5650 3800
+Wire Wire Line
+	5650 5050 5650 5150
+Wire Wire Line
+	5750 5050 5750 5150
+Wire Wire Line
+	5750 5150 5650 5150
+Connection ~ 5650 5150
+Wire Wire Line
+	5650 5150 5650 5200
+Wire Wire Line
+	3700 4300 3800 4300
+Wire Wire Line
+	3800 4300 3800 4350
+Wire Wire Line
+	3700 3500 3800 3500
+Wire Wire Line
+	3800 3500 3800 3550
+Text Label 3900 3300 0    50   ~ 0
+Pwr
+Text Label 3900 4200 0    50   ~ 0
+Pwr
+Text Label 4900 3050 0    50   ~ 0
+Pwr
+Text Label 4900 4450 0    50   ~ 0
+Pwr
+$Comp
+L Connector:USB_A J3
+U 1 1 5E4F9B8D
+P 5650 1900
+F 0 "J3" H 5420 1889 50  0000 R CNN
+F 1 "USB_A" H 5420 1798 50  0000 R CNN
+F 2 "0MiscParts:USB-A" H 5800 1850 50  0001 C CNN
+F 3 " ~" H 5800 1850 50  0001 C CNN
+	1    5650 1900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 1700 5350 1700
+$Comp
+L power:GND #PWR0105
+U 1 1 5E4F9B94
+P 5650 2450
+F 0 "#PWR0105" H 5650 2200 50  0001 C CNN
+F 1 "GND" H 5655 2277 50  0000 C CNN
+F 2 "" H 5650 2450 50  0001 C CNN
+F 3 "" H 5650 2450 50  0001 C CNN
+	1    5650 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2300 5650 2400
+Wire Wire Line
+	5750 2300 5750 2400
+Wire Wire Line
+	5750 2400 5650 2400
+Connection ~ 5650 2400
+Wire Wire Line
+	5650 2400 5650 2450
+Text Label 4900 1700 0    50   ~ 0
+Pwr
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E4FA7BF
+P 2950 1800
+F 0 "H1" H 3050 1846 50  0000 L CNN
+F 1 "MountingHole" H 3050 1755 50  0000 L CNN
+F 2 "0MiscParts:MountingHole _1-8_1-4" H 2950 1800 50  0001 C CNN
+F 3 "~" H 2950 1800 50  0001 C CNN
+	1    2950 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E4FB13B
+P 2950 2000
+F 0 "H2" H 3050 2046 50  0000 L CNN
+F 1 "MountingHole" H 3050 1955 50  0000 L CNN
+F 2 "0MiscParts:MountingHole _1-8_1-4" H 2950 2000 50  0001 C CNN
+F 3 "~" H 2950 2000 50  0001 C CNN
+	1    2950 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5E4FB2A2
+P 2950 2200
+F 0 "H3" H 3050 2246 50  0000 L CNN
+F 1 "MountingHole" H 3050 2155 50  0000 L CNN
+F 2 "0MiscParts:MountingHole _1-8_1-4" H 2950 2200 50  0001 C CNN
+F 3 "~" H 2950 2200 50  0001 C CNN
+	1    2950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5E4FB491
+P 2950 2400
+F 0 "H4" H 3050 2446 50  0000 L CNN
+F 1 "MountingHole" H 3050 2355 50  0000 L CNN
+F 2 "0MiscParts:MountingHole _1-8_1-4" H 2950 2400 50  0001 C CNN
+F 3 "~" H 2950 2400 50  0001 C CNN
+	1    2950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_A J6
+U 1 1 5E50055E
+P 7100 3250
+F 0 "J6" H 6870 3239 50  0000 R CNN
+F 1 "USB_A" H 6870 3148 50  0000 R CNN
+F 2 "0MiscParts:USB-A-Vert" H 7250 3200 50  0001 C CNN
+F 3 " ~" H 7250 3200 50  0001 C CNN
+	1    7100 3250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3050 6800 3050
+$Comp
+L power:GND #PWR0106
+U 1 1 5E500565
+P 7100 3800
+F 0 "#PWR0106" H 7100 3550 50  0001 C CNN
+F 1 "GND" H 7105 3627 50  0000 C CNN
+F 2 "" H 7100 3800 50  0001 C CNN
+F 3 "" H 7100 3800 50  0001 C CNN
+	1    7100 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 3650 7100 3750
+Wire Wire Line
+	7200 3650 7200 3750
+Wire Wire Line
+	7200 3750 7100 3750
+Connection ~ 7100 3750
+Wire Wire Line
+	7100 3750 7100 3800
+Text Label 6350 3050 0    50   ~ 0
+Pwr
+$EndSCHEMATC

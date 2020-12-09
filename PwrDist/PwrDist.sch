@@ -1,0 +1,248 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5E2BC4C3
+P 4500 4450
+F 0 "J1" H 4418 4667 50  0000 C CNN
+F 1 "Conn_01x02" H 4418 4576 50  0000 C CNN
+F 2 "0MiscParts:2 Pin 3.81mm" H 4500 4450 50  0001 C CNN
+F 3 "~" H 4500 4450 50  0001 C CNN
+	1    4500 4450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J3
+U 1 1 5E2BCD37
+P 6800 4750
+F 0 "J3" H 6880 4742 50  0000 L CNN
+F 1 "Conn_01x06" H 6880 4651 50  0000 L CNN
+F 2 "0MiscParts:6_Pin_3.81mm" H 6800 4750 50  0001 C CNN
+F 3 "~" H 6800 4750 50  0001 C CNN
+	1    6800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J4
+U 1 1 5E2BD44A
+P 6800 3400
+F 0 "J4" H 6880 3392 50  0000 L CNN
+F 1 "Conn_01x06" H 6880 3301 50  0000 L CNN
+F 2 "0MiscParts:6_Pin_3.81mm" H 6800 3400 50  0001 C CNN
+F 3 "~" H 6800 3400 50  0001 C CNN
+	1    6800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 5E2BD9B2
+P 6800 2700
+F 0 "J2" H 6880 2692 50  0000 L CNN
+F 1 "Conn_01x02" H 6880 2601 50  0000 L CNN
+F 2 "0MiscParts:2 Pin 3.81mm" H 6800 2700 50  0001 C CNN
+F 3 "~" H 6800 2700 50  0001 C CNN
+	1    6800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5E2BE3BC
+P 4800 4650
+F 0 "#PWR0101" H 4800 4400 50  0001 C CNN
+F 1 "GND" H 4805 4477 50  0000 C CNN
+F 2 "" H 4800 4650 50  0001 C CNN
+F 3 "" H 4800 4650 50  0001 C CNN
+	1    4800 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E2BE531
+P 6500 5200
+F 0 "#PWR0102" H 6500 4950 50  0001 C CNN
+F 1 "GND" H 6505 5027 50  0000 C CNN
+F 2 "" H 6500 5200 50  0001 C CNN
+F 3 "" H 6500 5200 50  0001 C CNN
+	1    6500 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 2800 6500 2800
+Wire Wire Line
+	6500 2800 6500 3300
+Wire Wire Line
+	6600 3300 6500 3300
+Connection ~ 6500 3300
+Wire Wire Line
+	6500 3300 6500 3500
+Connection ~ 6500 3500
+Wire Wire Line
+	6500 3500 6500 3700
+Wire Wire Line
+	6600 3700 6500 3700
+Connection ~ 6500 3700
+Wire Wire Line
+	6600 4650 6500 4650
+Wire Wire Line
+	6500 4650 6500 4850
+Wire Wire Line
+	6600 4850 6500 4850
+Connection ~ 6500 4850
+Wire Wire Line
+	6500 4850 6500 5050
+Wire Wire Line
+	6600 5050 6500 5050
+Connection ~ 6500 5050
+Wire Wire Line
+	6500 5050 6500 5200
+Wire Wire Line
+	6500 3500 6600 3500
+Wire Wire Line
+	4700 4550 4800 4550
+Wire Wire Line
+	4800 4550 4800 4650
+Wire Wire Line
+	6350 4950 6350 4750
+Wire Wire Line
+	6350 2700 6600 2700
+Wire Wire Line
+	4700 4450 4950 4450
+Wire Wire Line
+	6600 3600 6350 3600
+Wire Wire Line
+	6350 3600 6350 3400
+Connection ~ 6350 3400
+Wire Wire Line
+	6350 3400 6350 3200
+Wire Wire Line
+	6600 3200 6350 3200
+Connection ~ 6350 3200
+Wire Wire Line
+	6350 3200 6350 2700
+Wire Wire Line
+	6600 4550 6350 4550
+Connection ~ 6350 4550
+Wire Wire Line
+	6350 4550 6350 4450
+Wire Wire Line
+	6600 4750 6350 4750
+Connection ~ 6350 4750
+Wire Wire Line
+	6350 4750 6350 4550
+Wire Wire Line
+	6350 3400 6600 3400
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E2C18E5
+P 4500 3050
+F 0 "H1" H 4600 3096 50  0000 L CNN
+F 1 "MountingHole" H 4600 3005 50  0000 L CNN
+F 2 "0MiscParts:MountingHole _1-8_1-4" H 4500 3050 50  0001 C CNN
+F 3 "~" H 4500 3050 50  0001 C CNN
+	1    4500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E2C2009
+P 4500 3250
+F 0 "H2" H 4600 3296 50  0000 L CNN
+F 1 "MountingHole" H 4600 3205 50  0000 L CNN
+F 2 "0MiscParts:MountingHole _1-8_1-4" H 4500 3250 50  0001 C CNN
+F 3 "~" H 4500 3250 50  0001 C CNN
+	1    4500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5E2C2142
+P 4500 3450
+F 0 "H3" H 4600 3496 50  0000 L CNN
+F 1 "MountingHole" H 4600 3405 50  0000 L CNN
+F 2 "0MiscParts:MountingHole _1-8_1-4" H 4500 3450 50  0001 C CNN
+F 3 "~" H 4500 3450 50  0001 C CNN
+	1    4500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5E2C22EF
+P 4500 3650
+F 0 "H4" H 4600 3696 50  0000 L CNN
+F 1 "MountingHole" H 4600 3605 50  0000 L CNN
+F 2 "0MiscParts:MountingHole _1-8_1-4" H 4500 3650 50  0001 C CNN
+F 3 "~" H 4500 3650 50  0001 C CNN
+	1    4500 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 4950 6600 4950
+$Comp
+L 00User:PJ-102 J5
+U 1 1 5E2C4DE7
+P 4500 5200
+F 0 "J5" H 4558 5475 50  0000 C CNN
+F 1 "PJ-102" H 4558 5384 50  0000 C CNN
+F 2 "0MiscParts:PJ-102" H 4500 5200 50  0001 C CNN
+F 3 "" H 4500 5200 50  0001 C CNN
+	1    4500 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5E2C5537
+P 4800 5400
+F 0 "#PWR0103" H 4800 5150 50  0001 C CNN
+F 1 "GND" H 4805 5227 50  0000 C CNN
+F 2 "" H 4800 5400 50  0001 C CNN
+F 3 "" H 4800 5400 50  0001 C CNN
+	1    4800 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 5350 4800 5350
+Wire Wire Line
+	4800 5350 4800 5400
+Wire Wire Line
+	4700 5150 4950 5150
+Wire Wire Line
+	4950 5150 4950 4450
+Connection ~ 4950 4450
+Text Label 5050 4450 0    50   ~ 0
+V+
+$Comp
+L Device:Jumper JP1
+U 1 1 5E2CDA7F
+P 6350 4150
+F 0 "JP1" V 6400 4600 50  0000 R CNN
+F 1 "Jumper" V 6300 4600 50  0000 R CNN
+F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 6350 4150 50  0001 C CNN
+F 3 "~" H 6350 4150 50  0001 C CNN
+	1    6350 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 3700 6500 4650
+Connection ~ 6500 4650
+Connection ~ 6350 4450
+Wire Wire Line
+	4950 4450 6350 4450
+Wire Wire Line
+	6350 3850 6350 3600
+Connection ~ 6350 3600
+Text Label 6350 3850 0    50   ~ 0
+V+Aux
+$EndSCHEMATC

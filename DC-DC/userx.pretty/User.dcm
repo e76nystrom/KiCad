@@ -1,0 +1,63 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVC2G157
+D Single 2 to 1 Multiplexer, Low-Voltage CMOS
+K Single Mux CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP Conn_02x25_Odd_Even_Core_Left
+D Generic connector, double row, 02x25, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_02x25_Odd_Even_Core_Right
+D Generic connector, double row, 02x25, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Crystal_4_Pads
+D Two pin crystal
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
+$CMP N746Left
+D Generic connector, double row, 02x35, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP N746Right
+D Generic connector, double row, 02x35, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP OptoGP1A58HRJ00F
+D Photointerrupter infrared LED with photo IC, non-inverting output, -0.5V to 17V VDD, -20 to +85 degree Celsius, LG206D
+K Photointerrupter infrared LED with photo IC, non-inverting output, -0.5V to 17V VDD, -20 to +85 degree Celsius, LG206D
+F http://kodenshi.co.jp/products/pdf/sensor/photointerrupter_ic/LG206D.pdf
+$ENDCMP
+#
+$CMP Power_LED
+D Light emitting diode
+K LED diode
+F ~
+$ENDCMP
+#
+$CMP SW_Push
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
+$CMP SW_Push_Gnd
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F ~
+$ENDCMP
+#
+#End Doc Library
