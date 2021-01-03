@@ -24,6 +24,12 @@ K quartz ceramic resonator oscillator
 F ~
 $ENDCMP
 #
+$CMP G6S-2
+D Compact, Industry-Standard 2-pole relay, designed to switch 2A Signal Loads, Single-side Stable
+K Miniature Relay Dual Pole DPDT Omron
+F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf
+$ENDCMP
+#
 $CMP MegaProMiniL
 D Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
