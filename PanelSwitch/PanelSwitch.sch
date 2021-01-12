@@ -201,25 +201,25 @@ Wire Wire Line
 	4200 3900 4500 3900
 Wire Wire Line
 	4200 4350 4500 4350
-Text Label 4300 4350 0    50   ~ 0
-A
 Text Label 4300 3900 0    50   ~ 0
+A
+Text Label 4300 4350 0    50   ~ 0
 B
 Wire Wire Line
 	3600 3500 3900 3500
-Text Label 3700 3500 0    50   ~ 0
+Text Label 3700 3600 0    50   ~ 0
 A
 Wire Wire Line
 	3600 3600 3900 3600
-Text Label 3700 3600 0    50   ~ 0
+Text Label 3700 3500 0    50   ~ 0
 B
 Wire Wire Line
 	3600 3950 3900 3950
-Text Label 3700 3950 0    50   ~ 0
+Text Label 3700 4050 0    50   ~ 0
 A
 Wire Wire Line
 	3600 4050 3900 4050
-Text Label 3700 4050 0    50   ~ 0
+Text Label 3700 3950 0    50   ~ 0
 B
 $Comp
 L Device:LED D1
@@ -236,7 +236,7 @@ $Comp
 L Device:R R5
 U 1 1 6525498D
 P 7000 3900
-F 0 "R5" V 6950 3750 50  0000 C CNN
+F 0 "R5" V 6900 3900 50  0000 C CNN
 F 1 "10k" V 7000 3900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6930 3900 50  0001 C CNN
 F 3 "~" H 7000 3900 50  0001 C CNN
@@ -280,7 +280,7 @@ $Comp
 L Device:R R6
 U 1 1 65258B2F
 P 7000 4200
-F 0 "R6" V 6950 4050 50  0000 C CNN
+F 0 "R6" V 6900 4200 50  0000 C CNN
 F 1 "10k" V 7000 4200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6930 4200 50  0001 C CNN
 F 3 "~" H 7000 4200 50  0001 C CNN
@@ -313,7 +313,7 @@ $Comp
 L Device:R R7
 U 1 1 6525927C
 P 7000 4500
-F 0 "R7" V 6950 4350 50  0000 C CNN
+F 0 "R7" V 6900 4500 50  0000 C CNN
 F 1 "10k" V 7000 4500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6930 4500 50  0001 C CNN
 F 3 "~" H 7000 4500 50  0001 C CNN
@@ -346,7 +346,7 @@ $Comp
 L Device:R R8
 U 1 1 65259F8B
 P 7000 4800
-F 0 "R8" V 6950 4650 50  0000 C CNN
+F 0 "R8" V 6900 4800 50  0000 C CNN
 F 1 "10k" V 7000 4800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6930 4800 50  0001 C CNN
 F 3 "~" H 7000 4800 50  0001 C CNN
@@ -426,4 +426,20 @@ Wire Wire Line
 	5050 3750 5550 3750
 Wire Wire Line
 	5100 3950 5550 3950
+Text Label 5100 3750 0    50   ~ 0
+A0
+Text Label 5100 3850 0    50   ~ 0
+A1
+Text Label 5100 3950 0    50   ~ 0
+A2
+Text Label 5100 4050 0    50   ~ 0
+A3
+Text Label 5100 4200 0    50   ~ 0
+B0
+Text Label 5100 4300 0    50   ~ 0
+B1
+Text Label 5100 4400 0    50   ~ 0
+B2
+Text Label 5100 4500 0    50   ~ 0
+B3
 $EndSCHEMATC

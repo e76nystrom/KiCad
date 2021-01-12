@@ -1,0 +1,22 @@
+depth -0.125
+retract 1.000
+safeZ 1.000
+feed 7.0
+zFeed 5.0
+
+coordinate 55
+speed 3400
+delay 3.0
+
+orientation lowerLeft
+dxf STM32F1Base.dxf
+
+pause 0
+pauseCenter 0
+pauseHeight 0.025
+
+outputFile *-125
+pause 1
+drillSize 0.125
+holeRange 0.125 +-.004
+dxfDrill
