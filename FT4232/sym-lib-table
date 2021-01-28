@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name FT4232-rescue)(type Legacy)(uri ${KIPRJMOD}/FT4232-rescue.lib)(options "")(descr ""))
+)

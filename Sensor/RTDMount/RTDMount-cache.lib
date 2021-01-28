@@ -1,6 +1,19 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 00User_Pad
+#
+DEF 00User_Pad J 0 40 Y Y 1 F N
+F0 "J" 0 150 50 H V C CNN
+F1 "00User_Pad" 0 150 50 H V C CNN
+F2 "" 0 150 50 H I C CNN
+F3 "" 0 150 50 H I C CNN
+DRAW
+P 5 0 1 0 -50 50 -50 -50 50 -50 50 50 -50 50 N
+X ~ 1 -150 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Connector_Conn_01x01_Male
 #
 DEF Connector_Conn_01x01_Male J 0 40 Y N 1 F N

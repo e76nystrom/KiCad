@@ -126,4 +126,34 @@ Text Label 4350 4400 0    50   ~ 0
 B
 Text Label 4350 4600 0    50   ~ 0
 B
+$Comp
+L 00User:Pad J5
+U 1 1 607FD8EA
+P 5050 2550
+F 0 "J5" H 5128 2601 50  0000 L CNN
+F 1 "Pad" H 5128 2510 50  0000 L CNN
+F 2 "0MiscParts:SurfaceMountPad" H 5050 2700 50  0001 C CNN
+F 3 "" H 5050 2700 50  0001 C CNN
+	1    5050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 00User:Pad J6
+U 1 1 607FDFA3
+P 5050 2800
+F 0 "J6" H 5128 2851 50  0000 L CNN
+F 1 "Pad" H 5128 2760 50  0000 L CNN
+F 2 "0MiscParts:SurfaceMountPad" H 5050 2950 50  0001 C CNN
+F 3 "" H 5050 2950 50  0001 C CNN
+	1    5050 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2800 4900 2800
+Wire Wire Line
+	4700 2550 4900 2550
+Text Label 4700 2550 0    50   ~ 0
+Pad
+Text Label 4700 2800 0    50   ~ 0
+Pad
 $EndSCHEMATC
