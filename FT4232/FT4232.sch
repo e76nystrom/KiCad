@@ -272,7 +272,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 4750 6150 4750
 $Comp
-L 00User:ProtectionDiode CR2
+L FT4232-rescue:ProtectionDiode-00User CR2
 U 1 1 6009C527
 P 5600 5350
 F 0 "CR2" V 5400 5400 50  0000 L CNN
@@ -283,7 +283,7 @@ F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 5600 5350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 00User:ProtectionDiode CR1
+L FT4232-rescue:ProtectionDiode-00User CR1
 U 1 1 6009D10D
 P 5200 5350
 F 0 "CR1" V 5000 5400 50  0000 L CNN
@@ -324,7 +324,7 @@ F 3 "" H 5600 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B_Mini J1
+L FT4232-rescue:USB_B_Mini-Connector J1
 U 1 1 600A20BC
 P 4050 4850
 F 0 "J1" H 4107 5317 50  0000 C CNN

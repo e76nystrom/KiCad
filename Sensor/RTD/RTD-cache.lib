@@ -155,6 +155,9 @@ F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  SolderJumper*Bridged*
+ Jumper*
+ TestPoint*2Pads*
+ TestPoint*Bridge*
 $ENDFPLIST
 DRAW
 A 0 -10 57 450 1350 0 1 0 N 40 30 -40 30
@@ -190,7 +193,9 @@ F1 "Jumper_Jumper_3_Open" 0 110 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- SolderJumper*Open*
+ Jumper*
+ TestPoint*3Pads*
+ TestPoint*Bridge*
 $ENDFPLIST
 DRAW
 A -65 -30 89 1282 518 0 1 0 N -120 40 -10 40

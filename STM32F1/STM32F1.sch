@@ -1013,7 +1013,7 @@ F 3 "" H 7800 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B_Mini J3
+L STM32F1-rescue:USB_B_Mini-Connector J3
 U 1 1 5EF8B8E4
 P 7350 1800
 F 0 "J3" H 7350 2250 50  0000 C CNN
