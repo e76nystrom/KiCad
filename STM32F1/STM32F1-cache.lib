@@ -1,27 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 00User_Crystal_4_Pads
-#
-DEF 00User_Crystal_4_Pads Y 0 40 N N 1 F N
-F0 "Y" 0 150 50 H V C CNN
-F1 "00User_Crystal_4_Pads" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Crystal*
-$ENDFPLIST
-DRAW
-S -45 100 45 -100 0 1 12 N
-P 2 0 1 0 -100 0 -75 0 N
-P 2 0 1 20 -75 -50 -75 50 N
-P 2 0 1 20 75 -50 75 50 N
-P 2 0 1 0 100 0 75 0 N
-X 1 1 -150 0 50 R 50 50 1 1 P
-X 4 4 150 0 50 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # 00User_RT9193
 #
 DEF 00User_RT9193 U 0 40 Y Y 1 F N
@@ -181,27 +160,6 @@ P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N
 X ~ 1 0 150 110 D 50 50 1 1 P
 X ~ 2 0 -150 110 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_Crystal
-#
-DEF Device_Crystal Y 0 40 N N 1 F N
-F0 "Y" 0 150 50 H V C CNN
-F1 "Device_Crystal" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Crystal*
-$ENDFPLIST
-DRAW
-S -45 100 45 -100 0 1 12 N
-P 2 0 1 0 -100 0 -75 0 N
-P 2 0 1 20 -75 -50 -75 50 N
-P 2 0 1 20 75 -50 75 50 N
-P 2 0 1 0 100 0 75 0 N
-X 1 1 -150 0 50 R 50 50 1 1 P
-X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -386,6 +344,48 @@ X D+ 3 300 0 100 L 50 50 1 1 P
 X ID 4 300 -200 100 L 50 50 1 1 P
 X GND 5 0 -400 100 U 50 50 1 1 w
 X Shield 6 -100 -400 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_ABM3BAIG-8.000MHZ-1Z-T
+#
+DEF SamacSys_Parts_ABM3BAIG-8.000MHZ-1Z-T Y 0 30 Y Y 1 F N
+F0 "Y" 1450 300 50 H V L CNN
+F1 "SamacSys_Parts_ABM3BAIG-8.000MHZ-1Z-T" 1450 200 50 H V L CNN
+F2 "ABM3BAIG8000MHZ1ZT" 1450 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/ABM3BAIG-8.000MHZ-1Z-T.pdf" 1450 0 50 H I L CNN
+F4 "Crystals 18pF 8MHz 10ppm AEC-Q200 -40C +125C" 1450 -100 50 H I L CNN "Description"
+F5 "0.9" 1450 -200 50 H I L CNN "Height"
+F6 "815-M3BAIG-8-1ZT" 1450 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ABRACON/ABM3BAIG-8000MHZ-1Z-T/?qs=uwxL4vQweFMtl1NAFNP1Qg%3D%3D" 1450 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "ABRACON" 1450 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ABM3BAIG-8.000MHZ-1Z-T" 1450 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1400 100 1400 -200 200 -200 200 100 N
+X CRYSTAL_1 1 0 -100 200 R 50 50 0 0 P
+X GND_1 2 1600 -100 200 L 50 50 0 0 P
+X CRYSTAL_2 3 1600 0 200 L 50 50 0 0 P
+X GND_2 4 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_CM7V-T1A-32.768k-9pF-20PPM-TA-QA_T3
+#
+DEF SamacSys_Parts_CM7V-T1A-32.768k-9pF-20PPM-TA-QA_T3 Y 0 30 Y Y 1 F N
+F0 "Y" 650 300 50 H V L CNN
+F1 "SamacSys_Parts_CM7V-T1A-32.768k-9pF-20PPM-TA-QA_T3" 650 200 50 H V L CNN
+F2 "CM7VT1A32768kHz125pF10PPMTBQC" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/CM7V-T1A-32.768k-9pF-20PPM-TA-QA T3.pdf" 650 0 50 H I L CNN
+F4 "Crystals 32.768 kHz 9.0 pF +/-20 PPM AEC-Q200" 650 -100 50 H I L CNN "Description"
+F5 "0.65" 650 -200 50 H I L CNN "Height"
+F6 "428-201568-MG03" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Micro-Crystal/CM7V-T1A-32768k-9pF-20PPM-TA-QA-T3?qs=chTDxNqvsykvxHA%2FArNuyw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Micro Crystal AG" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CM7V-T1A-32.768k-9pF-20PPM-TA-QA T3" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #

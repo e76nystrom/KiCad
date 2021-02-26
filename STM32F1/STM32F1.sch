@@ -143,17 +143,6 @@ F 3 "" H 1400 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal Y1
-U 1 1 5EF634D1
-P 1150 3250
-F 0 "Y1" H 1150 3518 50  0000 C CNN
-F 1 "ABL-8.000MHZ-B2‎ " H 1150 3427 50  0000 C CNN
-F 2 "Crystal:Crystal_HC49-4H_Vertical" H 1150 3250 50  0001 C CNN
-F 3 "~" H 1150 3250 50  0001 C CNN
-	1    1150 3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C3
 U 1 1 5EF67A47
 P 900 4600
@@ -756,17 +745,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 3700 2150 3850
 $Comp
-L 00User:Crystal_4_Pads Y2
-U 1 1 5F086BCB
-P 1150 4350
-F 0 "Y2" H 1150 4618 50  0000 C CNN
-F 1 "RSM200S-32.768-12.5-10PPM-NPB" H 1150 4527 50  0000 C CNN
-F 2 "0MiscParts:RSM2000S" H 1150 4350 50  0001 C CNN
-F 3 "~" H 1150 4350 50  0001 C CNN
-	1    1150 4350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR034
 U 1 1 5F0CFE2C
 P 6000 1350
@@ -1075,25 +1053,6 @@ F 3 "" H 5150 950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R2
-U 1 1 5F0E4BE6
-P 1150 2900
-F 0 "R2" V 943 2900 50  0000 C CNN
-F 1 "R" V 1034 2900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1080 2900 50  0001 C CNN
-F 3 "~" H 1150 2900 50  0001 C CNN
-	1    1150 2900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1000 2900 650  2900
-Wire Wire Line
-	1300 2900 1650 2900
-Text Label 700  2900 0    50   ~ 0
-D0
-Text Label 1500 2900 0    50   ~ 0
-D1
-$Comp
 L power:+3.3V #PWR043
 U 1 1 5F10EB21
 P 9350 1000
@@ -1154,7 +1113,7 @@ U 1 1 5F120549
 P 9350 1150
 F 0 "D3" V 9389 1033 50  0000 R CNN
 F 1 "LED" V 9298 1033 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9350 1150 50  0001 C CNN
+F 2 "0MiscParts:LED_0603_1608Metric_Pad1.05x1.35mm_HandSolder" H 9350 1150 50  0001 C CNN
 F 3 "~" H 9350 1150 50  0001 C CNN
 	1    9350 1150
 	0    -1   -1   0   
@@ -1165,7 +1124,7 @@ U 1 1 5F121D3F
 P 9800 1150
 F 0 "D4" V 9839 1033 50  0000 R CNN
 F 1 "LED" V 9748 1033 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9800 1150 50  0001 C CNN
+F 2 "0MiscParts:LED_0603_1608Metric_Pad1.05x1.35mm_HandSolder" H 9800 1150 50  0001 C CNN
 F 3 "~" H 9800 1150 50  0001 C CNN
 	1    9800 1150
 	0    -1   -1   0   
@@ -1489,4 +1448,76 @@ Text Label 850  6150 0    50   ~ 0
 5VIn
 Text Label 9300 3850 0    50   ~ 0
 5VIn
+$Comp
+L SamacSys_Parts:ABM3BAIG-8.000MHZ-1Z-T Y1
+U 1 1 60398552
+P -2700 3400
+F 0 "Y1" H -1900 3665 50  0000 C CNN
+F 1 "ABM3BAIG-8.000MHZ-1Z-T" H -1900 3574 50  0000 C CNN
+F 2 "SamacSys_Parts:ABM3BAIG8000MHZ1ZT" H -1250 3500 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/ABM3BAIG-8.000MHZ-1Z-T.pdf" H -1250 3400 50  0001 L CNN
+F 4 "Crystals 18pF 8MHz 10ppm AEC-Q200 -40C +125C" H -1250 3300 50  0001 L CNN "Description"
+F 5 "0.9" H -1250 3200 50  0001 L CNN "Height"
+F 6 "815-M3BAIG-8-1ZT" H -1250 3100 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/ABRACON/ABM3BAIG-8000MHZ-1Z-T/?qs=uwxL4vQweFMtl1NAFNP1Qg%3D%3D" H -1250 3000 50  0001 L CNN "Mouser Price/Stock"
+F 8 "ABRACON" H -1250 2900 50  0001 L CNN "Manufacturer_Name"
+F 9 "ABM3BAIG-8.000MHZ-1Z-T" H -1250 2800 50  0001 L CNN "Manufacturer_Part_Number"
+	1    -2700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:CM7V-T1A-32.768k-9pF-20PPM-TA-QA_T3 Y2
+U 1 1 60399300
+P -2350 4550
+F 0 "Y2" H -1722 4546 50  0000 L CNN
+F 1 "CM7V-T1A-32.768k-9pF-20PPM-TA-QA_T3" H -1722 4455 50  0000 L CNN
+F 2 "SamacSys_Parts:CM7VT1A32768kHz125pF10PPMTBQC" H -1700 4650 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/CM7V-T1A-32.768k-9pF-20PPM-TA-QA T3.pdf" H -1700 4550 50  0001 L CNN
+F 4 "Crystals 32.768 kHz 9.0 pF +/-20 PPM AEC-Q200" H -1700 4450 50  0001 L CNN "Description"
+F 5 "0.65" H -1700 4350 50  0001 L CNN "Height"
+F 6 "428-201568-MG03" H -1700 4250 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Micro-Crystal/CM7V-T1A-32768k-9pF-20PPM-TA-QA-T3?qs=chTDxNqvsykvxHA%2FArNuyw%3D%3D" H -1700 4150 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Micro Crystal AG" H -1700 4050 50  0001 L CNN "Manufacturer_Name"
+F 9 "CM7V-T1A-32.768k-9pF-20PPM-TA-QA T3" H -1700 3950 50  0001 L CNN "Manufacturer_Part_Number"
+	1    -2350 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2700 3500 -3050 3500
+Text Label -3000 3500 0    50   ~ 0
+D0
+Wire Wire Line
+	-850 3400 -1100 3400
+Text Label -1000 3400 0    50   ~ 0
+D1
+Wire Wire Line
+	-2350 4550 -2600 4550
+Text Label -2550 4550 0    50   ~ 0
+C14
+Wire Wire Line
+	-2350 4650 -2600 4650
+Text Label -2550 4650 0    50   ~ 0
+C15
+$Comp
+L power:GND #PWR?
+U 1 1 60475233
+P -1100 3500
+F 0 "#PWR?" H -1100 3250 50  0001 C CNN
+F 1 "GND" V -1100 3300 50  0000 C CNN
+F 2 "" H -1100 3500 50  0001 C CNN
+F 3 "" H -1100 3500 50  0001 C CNN
+	1    -1100 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60475B72
+P -2700 3400
+F 0 "#PWR?" H -2700 3150 50  0001 C CNN
+F 1 "GND" V -2750 3200 50  0000 C CNN
+F 2 "" H -2700 3400 50  0001 C CNN
+F 3 "" H -2700 3400 50  0001 C CNN
+	1    -2700 3400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

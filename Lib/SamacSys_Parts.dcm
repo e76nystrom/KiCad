@@ -6,4 +6,16 @@ K
 F http://www.ti.com/lit/ds/symlink/ne555.pdf
 $ENDCMP
 #
+$CMP CM7V-T1A-32.768k-9pF-20PPM-TA-QA_T3
+D Crystals 32.768 kHz 9.0 pF +/-20 PPM AEC-Q200
+K
+F https://componentsearchengine.com/Datasheets/1/CM7V-T1A-32.768k-9pF-20PPM-TA-QA T3.pdf
+$ENDCMP
+#
+$CMP ABM3BAIG-8.000MHZ-1Z-T
+D Crystals 18pF 8MHz 10ppm AEC-Q200 -40C +125C
+K
+F https://componentsearchengine.com/Datasheets/1/ABM3BAIG-8.000MHZ-1Z-T.pdf
+$ENDCMP
+#
 #End Doc Library
