@@ -1,6 +1,44 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Crystal_4_Pads-00User
+#
+DEF Crystal_4_Pads-00User Y 0 40 N N 1 F N
+F0 "Y" 0 150 50 H V C CNN
+F1 "Crystal_4_Pads-00User" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Crystal*
+$ENDFPLIST
+DRAW
+S -45 100 45 -100 0 1 12 N
+P 2 0 1 0 -100 0 -75 0 N
+P 2 0 1 20 -75 -50 -75 50 N
+P 2 0 1 20 75 -50 75 50 N
+P 2 0 1 0 100 0 75 0 N
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 4 4 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RT9193-00User
+#
+DEF RT9193-00User U 0 40 Y Y 1 F N
+F0 "U" 0 400 50 H V C CNN
+F1 "RT9193-00User" 0 300 50 H V C CNN
+F2 "" -100 300 50 H I C CNN
+F3 "" -100 300 50 H I C CNN
+DRAW
+S -250 250 250 -250 0 1 0 f
+X Vin 1 -350 150 100 R 50 50 0 1 P
+X Gnd 2 -350 0 100 R 50 50 0 1 P
+X En 3 -350 -150 100 R 50 50 0 1 P
+X BP 4 350 -150 100 L 50 50 0 1 P
+X VOut 5 350 150 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
 # USB_B_Mini-Connector
 #
 DEF USB_B_Mini-Connector J 0 40 Y Y 1 F N

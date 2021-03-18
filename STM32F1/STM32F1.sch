@@ -756,7 +756,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 3700 2150 3850
 $Comp
-L 00User:Crystal_4_Pads Y2
+L STM32F1-rescue:Crystal_4_Pads-00User Y2
 U 1 1 5F086BCB
 P 1150 4350
 F 0 "Y2" H 1150 4618 50  0000 C CNN
@@ -1374,7 +1374,7 @@ F 3 "~" H 2650 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 00User:RT9193 U1
+L STM32F1-rescue:RT9193-00User U1
 U 1 1 5EF70C32
 P 2150 6750
 F 0 "U1" H 2150 7165 50  0000 C CNN
