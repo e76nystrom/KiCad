@@ -41,6 +41,7 @@ fp-info-cache
 *.xml
 *.csv
 *.xls*
+*.html
 
 */Documentatin/*
 Documentation/*
