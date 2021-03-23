@@ -42,6 +42,18 @@ K Miniature Relay Dual Pole DPDT Omron
 F http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6s.pdf
 $ENDCMP
 #
+$CMP LED_Dual_ACCA
+D Dual LED, cathodes on pins 2 and 3
+K LED diode bicolor dual
+F ~
+$ENDCMP
+#
+$CMP LED_Dual_CCAA
+D Dual LED, cathodes on pins 1 and 2
+K LED diode bicolor dual
+F ~
+$ENDCMP
+#
 $CMP MegaProMiniL
 D Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector
